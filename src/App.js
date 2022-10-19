@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import ProfileContainer from "./components/Profile/ProfileContainer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import UsersContainer from "./components/Users/UsersContainer";
-
+import HeaderContainer from "./components/Header/HeaderContainer"
 
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
     
     <BrowserRouter>
       <div className="app-wrapper">
-        <Header />
+        <HeaderContainer />
         <Navbar />
         <div className='app-wrapper-content'>
           <Routes>
